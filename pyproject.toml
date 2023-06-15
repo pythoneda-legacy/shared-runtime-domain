@@ -4,7 +4,7 @@ version = "0.0.1a1"
 description = "Runtime scope for pythoneda/base"
 authors = ["rydnr <github@acm-sl.org>"]
 readme = "README.md"
-homepage = "https://github.com/pythoneda-runtime-scope/base"
+homepage = "https://github.com/pythoneda-runtime/base"
 packages = [{include = "pythonedaruntime"}]
 
 [tool.poetry.dependencies]
