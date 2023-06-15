@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pythoneda-runtime-base"
+version = "0.0.1a1"
+description = "Runtime scope for pythoneda/base"
+authors = ["rydnr <github@acm-sl.org>"]
+readme = "README.md"
+homepage = "https://github.com/pythoneda-runtime-scope/base"
+packages = [{include = "pythonedaruntime"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pythoneda-base = "^0.0.1a12"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
